@@ -1,0 +1,29 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+
+.board {
+    background-color: #392F5A;
+    width: 770px;
+    height: 660px;
+    margin: auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: solid 1px white;
+    color: white;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    margin: 5px;
+}
+
+.red-cell {
+    background-color: red;
+}
+
+.yellow-cell {
+    background-color: yellow;
+}
